@@ -1,4 +1,4 @@
-FROM haskell
+FROM haskell:8.0
 EXPOSE 80
 RUN stack setup
 ADD . /app
